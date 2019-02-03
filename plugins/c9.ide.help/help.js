@@ -22,6 +22,7 @@ define(function(require, exports, module) {
         var aboutDialog;
         
         function load() {
+            return;
             menus.addItemByPath("Cloud9/About Cloud9", new ui.item({ 
                 onclick: function() { showAbout(); }
             }), 100, plugin);
